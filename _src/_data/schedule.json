@@ -1,0 +1,34 @@
+[
+  {
+    "date" : "2021-10-05",
+    "time" : "7:00PM",
+    "opponent" : "Cleveland",
+    "location": "H",
+    "tv" : "NBCSC",
+    "exhibition": "true"
+  },
+  {
+    "date" : "2021-10-08",
+    "time" : "7:00PM",
+    "opponent" : "New Orleans",
+    "location": "H",
+    "tv" : "NBCSC",
+    "exhibition": "true"
+  },
+  {
+    "date" : "2021-10-10",
+    "time" : "6:00PM",
+    "opponent" : "Cleveland",
+    "location": "A",
+    "tv" : "NBCSC",
+    "exhibition": "true"
+  },
+  {
+    "date" : "2021-10-15",
+    "time" : "7:00PM",
+    "opponent" : "Memphis",
+    "location": "H",
+    "tv" : "NBCSC",
+    "exhibition": "true"
+  }
+]

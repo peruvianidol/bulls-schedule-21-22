@@ -2,29 +2,182 @@
 layout: base
 ---
 
-A basic boilerplate for getting a new Eleventy site up and running.
-
-## How to use this
-
-1. [**Use this template** on GitHub](https://github.com/peruvianidol/11ty-starter/generate)
-2. Follow the instructions to create a new repository from this template
-3. In the project directory, run `npm install`
-4. Edit `package.json` and `_src/_data/site.json`
-5. Run `npm start` to run Eleventy and open the site in a browser
-
-## Features
-
-* SASS workflow (`_src/assets/scss/`)
-* [Responsive image plugin](https://github.com/11ty/eleventy-img)
-* [SVG sprite plugin](https://github.com/patrickxchong/eleventy-plugin-svg-sprite)
-* Current year shortcode
-* Date conversion shortcode [Month DD, YYYY]
-* 404 page
-
-## Eleventy Resources
-
-* [Eleventy documentation](https://11ty.dev)
-* [11ty.recipes](https://11ty.recipes)
-* [11ty.rocks](https://11ty.rocks)
-
-<a href="https://github.com/peruvianidol/11ty-starter" class="flex-row">{% icon "github", "icon-24" %} <span>Contribute on Github<span></a>
+<table>
+  <caption>October 2021</caption>
+  <thead>
+    <tr>
+      <th>Sun</th>
+      <th>Mon</th>
+      <th>Tue</th>
+      <th>Wed</th>
+      <th>Thu</th>
+      <th>Fri</th>
+      <th>Sat</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><span>1<span></td>
+      <td><span>2</span></td>
+    </tr>
+    <tr>
+      <td><span>3</span></td>
+      <td><span>4</span></td>
+      <td class="home" data-preseason="true">
+        <span>5</span>
+        <figure>
+          <div data-opponent="Cleveland">
+            {% icon "cleveland", "opponent" %}
+          </div>
+          <figcaption>
+            <p class="result">W 131-95</p>
+          </figcaption>
+        </figure>
+      </td>
+      <td><span>6</span></td>
+      <td><span>7</span></td>
+      <td class="home" data-preseason="true">
+        <span>8</span>
+        <figure>
+          <div data-opponent="New Orleans">
+            {% icon "new-orleans", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">7:00PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+      <td><span>9</span></td>
+    </tr>
+    <tr>
+      <td class="away" data-preseason="true">
+        <span>10</span>
+        <figure>
+          <div data-opponent="Cleveland">
+            {% icon "cleveland", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">6:00PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+      <td><span>11</span></td>
+      <td><span>12</span></td>
+      <td><span>13</span></td>
+      <td><span>14</span></td>
+      <td class="home" data-preseason="true">
+        <span>15</span>
+        <figure>
+          <div data-opponent="Memphis">
+            {% icon "memphis", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">7:00PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+      <td><span>16</span></td>
+    </tr>
+    <tr>
+      <td><span>17</span></td>
+      <td><span>18</span></td>
+      <td><span>19</span></td>
+      <td class="away">
+        <span>20</span>
+        <figure>
+          <div data-opponent="Detroit">
+            {% icon "detroit", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">6:00PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+      <td><span>21</span></td>
+      <td class="home">
+        <span>22</span>
+        <figure>
+          <div data-opponent="New Orleans">
+            {% icon "new-orleans", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">7:00PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+      <td class="home">
+        <span>20</span>
+        <figure>
+          <div data-opponent="Detroit">
+            {% icon "detroit", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">7:00PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+    </tr>
+    <tr>
+      <td><span>24</span></td>
+      <td class="away">
+        <span>25</span>
+        <figure>
+          <div data-opponent="Toronto">
+            {% icon "toronto", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">6:30PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+      <td><span>26</span></td>
+      <td><span>27</span></td>
+      <td class="home">
+        <span>28</span>
+        <figure>
+          <div data-opponent="New York">
+            {% icon "new-york", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">7:00PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+      <td><span>29</span></td>
+      <td class="home">
+        <span>30</span>
+        <figure>
+          <div data-opponent="Utah">
+            {% icon "utah", "opponent" %}
+          </div>
+          <figcaption>
+            <p>{% icon "nbcsc", "tv" %}</p>
+            <p class="time">7:00PM CT</p>
+          </figcaption>
+        </figure>
+      </td>
+    </tr>
+    <tr>
+      <td><span>31</span></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>

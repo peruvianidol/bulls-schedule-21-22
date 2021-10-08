@@ -8,25 +8,14 @@
   <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
   <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
   <link rel="stylesheet" href="/assets/css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
 </head>
 <body>
   {% svgsprite %}
-
-  <header>
-    <h1><a href="/">{{ site.name }}</a></h1>
-    <nav>
-      <a href="/sample/">Sample Page</a>
-    </nav>
-  </header>
-
   <main>
-    {% if title %}<h2>{{ title }}</h2>{% endif %}
     {{ content | safe }}
-  </main>
-
-  <footer>
-    &copy; {% year %} <a href="https://mikeaparicio.com">Mike Aparicio</a> &middot; All your rights are belong to us (j/k do whatever you want, idc)
-  </footer>
-
+  </main>  
 </body>
 </html>
