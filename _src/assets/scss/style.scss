@@ -61,7 +61,7 @@ tr:last-child td {
 span {
   display: block;
   text-align: right;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -70,7 +70,7 @@ figure {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: calc(100% - 2rem);
+  height: calc(100% - 2.5rem);
 }
 
 figcaption {
