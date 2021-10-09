@@ -135,6 +135,11 @@ figcaption {
   body {
     padding: 1rem;
   }
+  caption {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
   thead,
   td:not([class]) {
     display: none;
