@@ -48,8 +48,7 @@ layout: base
             {% icon "new-orleans", "opponent" %}
           </div>
           <figcaption>
-            <p>{% icon "nbcsc", "tv" %}</p>
-            <p class="time">7:00PM CT</p>
+            <p class="result">W 121-85</p>
           </figcaption>
         </figure>
       </td>
